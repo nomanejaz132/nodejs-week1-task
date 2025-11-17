@@ -118,7 +118,7 @@ app.get('/product', (req, res) => {
         <div class="card">
           <div class="image-wrapper">
             <img src="${product.imageUrl}" 
-            alt="Product Image" />
+            alt="${product.name}" />
           </div>
           <div class="content">
             <h1>${product.name}</h1>
